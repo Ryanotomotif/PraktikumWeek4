@@ -23,7 +23,7 @@ namespace PraktikumWeek4
 		private void btn_save_Click(object sender, EventArgs e)
 		{
 			
-			for (int i = 1; i < 10; i++)
+			for (int i = 0; i < 10; i++)
 			{
 					DataList[i, 0] = textBox_InputNama.Text;
 					DataList[i, 1] = textBox_InputAlamat.Text;
@@ -39,7 +39,7 @@ namespace PraktikumWeek4
 			FormTampilan frm = new FormTampilan(textBox_InputNama.Text);
 			frm.value = textBox_InputNama.Text;
 			frm.ShowDialog();
-	
+			
 		}
 	}
 }
